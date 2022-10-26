@@ -765,7 +765,7 @@ html::-webkit-scrollbar {
 html{
           scroll-behavior: smooth;
         }
-    @media (min-width: 300px) {
+@media (min-width: 300px) {
 
   .xxs\:text-3xl {
     font-size: 1.875rem;
@@ -777,7 +777,7 @@ html{
     line-height: 1.75rem;
   }
 }
-    @media (min-width: 390px) {
+@media (min-width: 390px) {
 
   .xs\:ml-\[3rem\] {
     margin-left: 3rem;
@@ -810,7 +810,7 @@ html{
     line-height: 2rem;
   }
 }
-    @media (min-width: 640px) {
+@media (min-width: 640px) {
 
   .sm\:ml-0 {
     margin-left: 0px;
@@ -826,6 +826,10 @@ html{
 
   .sm\:h-\[40px\] {
     height: 40px;
+  }
+
+  .sm\:h-screen {
+    height: 100vh;
   }
 
   .sm\:w-28 {
@@ -884,7 +888,7 @@ html{
     line-height: 2.5rem;
   }
 }
-    @media (min-width: 768px) {
+@media (min-width: 768px) {
 
   .md\:h-24 {
     height: 6rem;
@@ -921,7 +925,7 @@ html{
     line-height: 2rem;
   }
 }
-    @media (min-width: 1024px) {
+@media (min-width: 1024px) {
 
   .lg\:text-\[9rem\] {
     font-size: 9rem;
@@ -946,7 +950,7 @@ html{
     line-height: 2.25rem;
   }
 }
-    @media (min-width: 1280px) {
+@media (min-width: 1280px) {
 
   .xl\:gap-28 {
     gap: 7rem;
