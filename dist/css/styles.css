@@ -367,19 +367,18 @@ video {
   max-width: 100%;
   height: auto;
 }
-    @font-face {
+        @font-face {
         font-family: AbrilFatface;
-        src: url(/dist/fonts/AbrilFatface-Regular.ttf) format("truetype");
+        src: url(../fonts/AbrilFatface-Regular.ttf) format("truetype");
         }
         @font-face {
           font-family: BebasNeue;
-          src: url(/dist/fonts/BebasNeue-Regular.ttf) format("truetype");
-          }
-          @font-face {
+          src: url(../fonts/BebasNeue-Regular.ttf) format("truetype");
+         }
+        @font-face {
             font-family: CrimsonText;
-            src: url(/dist/fonts/CrimsonText-Regular.ttf) format("truetype");
-            }
-
+            src: url(../fonts/CrimsonText-Regular.ttf) format("truetype");
+         }
             .heading1{
               color:white;
               -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
