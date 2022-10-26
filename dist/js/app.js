@@ -298,7 +298,7 @@ class Scene {
   
   
   addElements() {
-    const geometry = new THREE.IcosahedronBufferGeometry(.9, 64);
+    const geometry = new THREE.IcosahedronBufferGeometry(.8, 64);
     const material = new THREE.ShaderMaterial({
       vertexShader,
       fragmentShader,
