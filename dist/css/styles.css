@@ -571,11 +571,11 @@ video {
 .h-\[80vh\] {
   height: 80vh;
 }
-.h-\[90vh\] {
-  height: 90vh;
-}
 .h-full {
   height: 100%;
+}
+.h-\[90vh\] {
+  height: 90vh;
 }
 .w-12 {
   width: 3rem;
