@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: AbrilFatface;
+        src: url(/dist/fonts/AbrilFatface-Regular.ttf) format("truetype");
+        }
+        @font-face {
+          font-family: BebasNeue;
+          src: url(/dist/fonts/BebasNeue-Regular.ttf) format("truetype");
+          }
+          @font-face {
+            font-family: CrimsonText;
+            src: url(/dist/fonts/CrimsonText-Regular.ttf) format("truetype");
+            }
+
+            .heading1{
+              color:white;
+              -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+              -webkit-text-stroke-width: 0.8px;
+              -webkit-text-stroke-color: white;
+              
+            }
+            @media (max-width:640px) {
+              .heading1{
+                color:white;
+                -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 0.4px;
+                -webkit-text-stroke-color: white;
+                
+              }
+              @media (max-width:390px) {
+                .heading1{
+                  color:white;
+                  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+                  -webkit-text-stroke-width: 0.3px;
+                  -webkit-text-stroke-color: white;
+                  
+                }
+            }
+    }
+  }
+    @layer utilities {
+        html::-webkit-scrollbar {
+          width: 0px;
+          height: 0px;
+        }
+        
+        html{
+          scroll-behavior: smooth;
+        }
+      }
